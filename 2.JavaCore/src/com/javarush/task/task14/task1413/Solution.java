@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1413;
 
 /* 
-Computer - Medium
+Computer - Medium - DONE
 
 1. Создай интерфейс CompItem.
 2. Добавь в него метод String getName().
@@ -31,7 +31,7 @@ Computer - Medium
 соответствующие поля класса.
 7. Для полей keyboard, mouse и monitor Computer должны быть созданы геттеры(getKeyboard, getMouse, getMonitor),
 которые будут возвращать соответствующие поля класса Computer.
-
+*/
 
 public class Solution {
     public static void main(String[] args) {
@@ -49,4 +49,3 @@ public class Solution {
     }
 
 }
-*/

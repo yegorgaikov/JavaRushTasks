@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1412;
 
 /* 
-Реализовать метод printMainInfo - Easy
+Реализовать метод printMainInfo - Easy - DONE
 1. Напиши реализацию метода printMainInfo, чтобы:
 1.1. Если в метод передают объект типа Drawable, у этого объекта вызывался метод draw.
 1.2. Если в метод передают объект типа Movable, у этого объекта вызывался метод move.
@@ -28,7 +28,12 @@ public class Solution {
     }
 
     public static void printMainInfo(Object object) {
-        //напишите тут ваш код
+        if(object instanceof Drawable){
+            ((Drawable) object).draw();
+        }
+        if (object instanceof Movable){
+            ((Movable) object).move();
+        }
     }
 
     static interface Movable {

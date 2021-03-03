@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* 
-Клининговый центр - Medium
+Клининговый центр - Medium - DONE
 
 1. Реализовать метод cleanAllApartments.
 Для каждого объекта из apartments:
@@ -38,7 +38,17 @@ public class Solution {
     }
 
     public static void cleanAllApartments(List<Apartment> apartments) {
-        //написать тут вашу реализацию пунктов 1-4
+        for (Apartment apartment : apartments) {
+            if (apartment instanceof OneRoomApt) {
+                ((OneRoomApt) apartment).clean1Room();
+            }
+            if (apartment instanceof TwoRoomApt) {
+                ((TwoRoomApt) apartment).clean2Rooms();
+            }
+            if (apartment instanceof ThreeRoomApt) {
+                ((ThreeRoomApt) apartment).clean3Rooms();
+            }
+        }
     }
 
     static interface Apartment {

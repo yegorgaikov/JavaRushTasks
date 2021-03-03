@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1416;
 
 /* 
-Исправление ошибок Ӏ Java Core: 4 уровень, 8 лекция - Medium - DONE
+Исправление ошибок Ӏ Java Core: 4 уровень, 8 лекция - Medium
 
 1. Подумай, как связаны интерфейсы Swimmable(способен плавать) и Walkable(способен ходить) с классом
 OceanAnimal(животное океана).

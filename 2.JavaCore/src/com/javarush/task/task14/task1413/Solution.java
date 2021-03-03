@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1413;
 
 /* 
-Computer - Medium - DONE
+Computer - Medium
 
 1. Создай интерфейс CompItem.
 2. Добавь в него метод String getName().

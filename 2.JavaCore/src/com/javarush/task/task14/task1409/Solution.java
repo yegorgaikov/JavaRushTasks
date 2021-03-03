@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1409;
 
 /* 
-Мосты - Medium - DONE
+Мосты - Medium
 1. Создать интерфейс Bridge с методом int getCarsCount().
 2. Создать классы WaterBridge и SuspensionBridge, которые реализуют интерфейс Bridge.
 3. Метод getCarsCount() должен возвращать любое фиксированное значение типа int.

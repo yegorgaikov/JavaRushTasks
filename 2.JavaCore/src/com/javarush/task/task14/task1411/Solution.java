@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /* 
-User, Loser, Coder and Proger - Hard - DONE
+User, Loser, Coder and Proger - Hard
 
 Давай напишем программу, которая определит, чем заняться тому или иному человеку.
 Для этого нужно:

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* 
-Клининговый центр - Medium - DONE
+Клининговый центр - Medium
 
 1. Реализовать метод cleanAllApartments.
 Для каждого объекта из apartments:

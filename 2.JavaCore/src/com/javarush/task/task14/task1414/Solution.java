@@ -1,7 +1,7 @@
 package com.javarush.task.task14.task1414;
 
 /* 
-MovieFactory - Hard - DONE
+MovieFactory - Hard
 
 Расширение функционала по аналогии, чтение с консоли:
 1. Разобраться, что программа умеет делать.

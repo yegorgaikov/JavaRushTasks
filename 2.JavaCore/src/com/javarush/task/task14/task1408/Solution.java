@@ -39,7 +39,7 @@ package com.javarush.task.task14.task1408;
 <getDescription() родительского класса> + < Моя страна - Sssss. Я несу N яиц в месяц.> где Sssss - название страны,
 а N - количество яиц в месяц.
 7. Метод getHen должен быть реализован в классе HenFactory и должен возвращать тип кур для переданной в него страны.
-
+*/
 
 public class Solution {
     public static void main(String[] args) {
@@ -51,11 +51,21 @@ public class Solution {
 
         static Hen getHen(String country) {
             Hen hen = null;
-            //напишите тут ваш код
+
+            if (country.equals(Country.RUSSIA)) {
+                hen = new RussianHen();
+            }
+            if (country.equals(Country.UKRAINE)) {
+                hen = new UkrainianHen();
+            }
+            if (country.equals(Country.BELARUS)) {
+                hen = new BelarusianHen();
+            }
+            if (country.equals(Country.MOLDOVA)) {
+                hen = new MoldovanHen();
+            }
+
             return hen;
         }
     }
-
-
 }
-*/

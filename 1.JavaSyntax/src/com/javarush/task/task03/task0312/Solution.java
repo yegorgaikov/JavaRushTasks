@@ -2,7 +2,7 @@ package com.javarush.task.task03.task0312;
 
 /* 
 Конвертируем время
-*/
+
 
 public class Solution {
     public static int convertToSeconds (int hour) {
@@ -14,3 +14,4 @@ public class Solution {
         System.out.println(convertToSeconds(2));
     }
 }
+*/
